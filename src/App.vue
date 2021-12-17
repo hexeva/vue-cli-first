@@ -1,6 +1,8 @@
 <template>
   <div id="app">
     <Title />
+    <Background />
+
     
   </div>
 </template>
@@ -8,12 +10,15 @@
 <script>
 
 import Title from "./components/Title";
+import Background from "./components/Background";
+
 
 
 export default {
   name: "App",
   components: {
-    Title
+    Title,
+    Background
   },
 };
 </script>
@@ -24,6 +29,8 @@ export default {
   padding: 0;
   box-sizing: border-box;
 }
+
+
 
 
 </style>

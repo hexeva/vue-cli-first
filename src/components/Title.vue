@@ -1,13 +1,18 @@
 <template>
     <section>
-             <h1>La mia prima app con Vue Cli</h1>
+             <h1>{{ title }}</h1>
       
     </section>
 </template>
 
 <script>
 export default {
-  name: "Title"
+  name: "Title",
+  data: function(){
+      return{
+          title:'La mia prima app con Vue Cli'
+      }
+  }
   
 };
 </script>
