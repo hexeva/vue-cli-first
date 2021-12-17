@@ -1,7 +1,8 @@
 <template>
   <div id="app">
     <Title />
-    <Background />
+    <h2>Io sono un h2 nell'app</h2>
+    <Jumbotron />
 
     
   </div>
@@ -10,7 +11,7 @@
 <script>
 
 import Title from "./components/Title";
-import Background from "./components/Background";
+import Jumbotron from "./components/Jumbotron";
 
 
 
@@ -18,7 +19,7 @@ export default {
   name: "App",
   components: {
     Title,
-    Background
+    Jumbotron
   },
 };
 </script>
@@ -30,7 +31,12 @@ export default {
   box-sizing: border-box;
 }
 
-
-
+body{
+  background-color:blueviolet;
+  
+}
+h2{
+  text-align: center;
+}
 
 </style>

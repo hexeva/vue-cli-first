@@ -1,14 +1,14 @@
 <template>
     <section>
         <div>
-            <img src="" alt="">
+            <img src="../assets/img/catwoman.jpg" alt="">
         </div>
     </section>
 </template>
 
 <script>
 export default {
-  name: "Background",
+  name: "Jumbotron",
   
 };
 </script>
@@ -16,7 +16,10 @@ export default {
 <style scoped>
     div{
         width: 100%;
-        height: 500px;
-        background-color: bisque;
+        height: 100%; 
+    }
+    img{
+        object-fit: contain;
+        width:100%
     }
 </style>
